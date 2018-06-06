@@ -13,14 +13,7 @@
 首先，控制器中收集用户提交数据的动作(action)可以按照下面写的这样，
 
 ```php
-namespace app\controllers;
-
-use Yii;
-use yii\base\Model;
-use yii\web\Controller;
-use yii\web\NotFoundHttpException;
-use app\models\User;
-use app\models\Profile;
+namespace app\contr
 
 class UserController extends Controller
 {
